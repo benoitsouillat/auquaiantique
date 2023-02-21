@@ -1,0 +1,11 @@
+@import "variables";
+@import "menu";
+
+body {
+    background-color: $primary-color;
+    font-family: Inter, Helvetica;
+    color: $secondary-color;
+}
+.button {
+    @include button;
+}
