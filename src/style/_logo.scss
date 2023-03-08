@@ -1,0 +1,27 @@
+@import "variables";
+
+.logo_div {
+
+    max-width: 35%;
+    min-width: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    .logo {
+        max-width: 120px;
+        max-height: 120px;
+        margin: 10px;
+    }
+    .header-title {
+        padding-left: 50px;
+        font-family: Irish, Helvetica, sans-serif;
+        font-size: 3.5rem;
+        color: $tertiary-color;
+        font-weight: 100;
+
+
+    }
+
+}
