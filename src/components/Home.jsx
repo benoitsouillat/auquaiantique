@@ -1,27 +1,14 @@
 import React from 'react';
-import Menu from './Menu';
+import Gallery from './Gallery';
+import OpenHours from './OpenHours';
 
 const Home = () => {
-  return (
-    <div>
-        <h1>Home</h1>
-        <Menu 
-                   linkNavigate = {[
-                    {
-                      title: 'Accueil', 
-                      route: '/'
-                    },
-                    {
-                      title: 'Notre Carte', 
-                      route: '/carte'
-                    }
-                  ]}
-                  linkConnect = {[]}
-
-        />
-      
-    </div>
-  )
+    return (
+        <>
+            <Gallery />
+            <OpenHours />
+        </>
+    )
 }
 
 export default Home

@@ -1,12 +1,26 @@
 @import "variables";
 @import "menu";
 @import "logo";
+@import "gallery";
 
 body {
     background-color: $primary-color;
     font-family: Inter, Helvetica;
     color: $secondary-color;
     padding: 20px 50px;
+
+    h2 {
+        font-family: Island;
+        color: $tertiary-color;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 100;
+    }
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .button {
     @include button;

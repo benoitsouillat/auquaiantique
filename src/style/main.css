@@ -30,6 +30,28 @@
   font-family: Inter;
   src: url(./font/Inter/static/Inter-SemiBold.ttf);
 }
+.menu {
+  max-width: 60%;
+  min-width: 40%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.menu li {
+  display: inline-block;
+  list-style: none;
+}
+.menu li a {
+  text-decoration: unset;
+  color: #D9FCE3;
+  margin: 8px;
+}
+.menu li a .active {
+  font-style: italic;
+}
+
 @font-face {
   font-family: jeju;
   src: url(./font/JejuHallasan.ttf.woff);
@@ -47,7 +69,7 @@
   src: url(./font/Inter/static/Inter-SemiBold.ttf);
 }
 .logo_div {
-  max-width: 35%;
+  max-width: 38%;
   min-width: 370px;
   display: flex;
   flex-direction: row;
@@ -67,11 +89,67 @@
   font-weight: 100;
 }
 
+@font-face {
+  font-family: jeju;
+  src: url(./font/JejuHallasan.ttf.woff);
+}
+@font-face {
+  font-family: Island;
+  src: url(./font/Island_Moments/IslandMoments-Regular.ttf);
+}
+@font-face {
+  font-family: Irish;
+  src: url(./font/Irish_Grover/IrishGrover-Regular.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(./font/Inter/static/Inter-SemiBold.ttf);
+}
+.gallery {
+  max-width: 45%;
+}
+.gallery .grid-gallery {
+  display: grid;
+  grid-template-rows: repeat(3, 130px);
+  grid-template-columns: repeat(3, 0.8fr);
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.gallery .grid-gallery div {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.gallery .grid-gallery img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.Selected-image-container {
+  max-width: 45%;
+}
+
 body {
   background-color: #C79D61;
   font-family: Inter, Helvetica;
   color: #D9FCE3;
   padding: 20px 50px;
+}
+body h2 {
+  font-family: Island;
+  color: #E1CAFC;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .button {

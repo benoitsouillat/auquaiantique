@@ -3,8 +3,7 @@ import Menu from './Menu';
 
 const Carte = () => {
   return (
-    <div>
-        <h2> Notre Carte</h2>
+
         <Menu 
                    linkNavigate = {[
                     {
@@ -19,8 +18,7 @@ const Carte = () => {
                   linkConnect = {[]}
 
         />
-      
-    </div>
+
   )
 }
 
