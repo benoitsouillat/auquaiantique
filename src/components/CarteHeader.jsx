@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from './Menu';
 
-const Carte = () => {
+const CarteHeader = () => {
   return (
 
     <Menu
@@ -13,7 +13,11 @@ const Carte = () => {
         {
           title: 'Notre Carte',
           route: '/carte'
-        }
+        },
+        {
+          title: 'A Propos de nous',
+          route: '/aboutus'
+      }
       ]}
       linkConnect={[]}
 
@@ -22,4 +26,4 @@ const Carte = () => {
   )
 }
 
-export default Carte
+export default CarteHeader

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Button from './Button';
 
 const OpenHours = () => {
@@ -61,11 +62,10 @@ const OpenHours = () => {
           <tr>
             <td>19h00 - 22h00</td>
           </tr>
-
         </tbody>
       </table>
-      <Button label="Nous appeler" />
-    </section>
+      <a href='tel:+33609050603'> <Button label="Nous appeler" /> </a>
+    </section >
   )
 }
 

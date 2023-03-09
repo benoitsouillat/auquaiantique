@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from './Menu';
 
-const Home = () => {
+const HomeHeader = () => {
     return (
 
         <Menu
@@ -25,4 +25,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default HomeHeader

@@ -112,11 +112,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.gallery-section h2 {
-  width: 100%;
-  margin: auto 30%;
-  margin-bottom: 30px;
-}
 
 .gallery {
   max-width: 45%;
@@ -191,11 +186,6 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.hours-section h2 {
-  width: 100%;
-  margin: auto 30%;
-  margin-bottom: 30px;
-}
 .hours-section table {
   margin: 10px;
   width: 60%;
@@ -205,6 +195,78 @@
   min-height: 22px;
   height: 22px;
   margin: unset;
+}
+
+@font-face {
+  font-family: jeju;
+  src: url(./font/JejuHallasan.ttf.woff);
+}
+@font-face {
+  font-family: Island;
+  src: url(./font/Island_Moments/IslandMoments-Regular.ttf);
+}
+@font-face {
+  font-family: Irish;
+  src: url(./font/Irish_Grover/IrishGrover-Regular.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(./font/Inter/static/Inter-SemiBold.ttf);
+}
+.carte {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  font-family: jeju;
+}
+.carte .carte-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.carte .carte-container .by_carte {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.carte .carte-container .by_carte h3 {
+  margin: auto;
+  min-width: 80%;
+  margin-bottom: 10px;
+}
+.carte .carte-container .by_carte > div {
+  width: 25%;
+  min-width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.carte .carte-container .by_carte > div h4 {
+  color: #E1CAFC;
+  text-shadow: 1px 1px 3px black;
+}
+.carte .carte-container section {
+  width: 100%;
+  margin: 10px;
+  padding: 25px;
+  border: solid black 1px;
+}
+.carte h3 {
+  font-family: Irish;
+  color: #E1CAFC;
+  text-shadow: 1px 2px 5px black;
+  margin-bottom: 30px;
+}
+.carte .carte-price {
+  margin-top: 40px;
+  font-family: jeju;
+  color: white;
+  text-shadow: 2px 2px 3px black;
 }
 
 body {
@@ -219,6 +281,10 @@ body h2 {
   text-align: center;
   font-size: 4rem;
   font-weight: 100;
+}
+body section h2 {
+  margin: auto 30%;
+  margin-bottom: 30px;
 }
 
 header {

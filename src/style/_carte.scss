@@ -1,0 +1,60 @@
+@import "./variables";
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    font-family: jeju;
+
+    .carte-container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+
+        .by_carte {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            h3 {
+                margin: auto;
+                min-width: 80%;
+                margin-bottom: 10px;
+            }
+            > div {
+                width: 25%;
+                min-width: 25%;
+                display: flex;
+                flex-direction: column;
+                h4 {
+                    color: $tertiary-color;
+                    text-shadow: 1px 1px 3px black;
+                }
+            }
+        }
+
+        section {
+            width: 100%;
+            margin: 10px;
+            padding: 25px;
+            border: solid black 1px;
+        }
+    }
+    h3 {
+        font-family: Irish;
+        color: $tertiary-color;
+        text-shadow: 1px 2px 5px  black;
+        margin-bottom: 30px;
+    }
+    .carte-price {
+        margin-top: 40px;
+        font-family: jeju;
+        color: white;
+        text-shadow: 2px 2px 3px black;
+    }
+}

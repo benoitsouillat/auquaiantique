@@ -3,6 +3,7 @@
 @import "logo";
 @import "gallery";
 @import "hours";
+@import "carte";
 
 body {
     background-color: $primary-color;
@@ -16,6 +17,12 @@ body {
         text-align: center;
         font-size: 4rem;
         font-weight: 100;
+    }
+    section {
+        h2 {
+            margin: auto 30%;
+            margin-bottom: 30px;
+        }
     }
 }
 header {
