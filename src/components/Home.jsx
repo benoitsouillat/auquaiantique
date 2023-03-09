@@ -6,6 +6,8 @@ const Home = () => {
     return (
         <>
             <Gallery />
+            <br />
+            <hr></hr>
             <OpenHours />
         </>
     )

@@ -1,0 +1,28 @@
+@import './variables';
+
+.hours-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h2 {
+        width: 100%;
+        margin: auto 30%;
+        margin-bottom: 30px;
+    }
+
+    table {
+        margin: 10px;
+        width: 60%;
+        border-spacing: 10px;
+
+        tr {
+            min-height: 22px;
+            height: 22px;
+            margin: unset;
+        }
+
+    }
+}

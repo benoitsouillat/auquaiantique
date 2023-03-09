@@ -168,6 +168,45 @@
   margin: 5px;
 }
 
+@font-face {
+  font-family: jeju;
+  src: url(./font/JejuHallasan.ttf.woff);
+}
+@font-face {
+  font-family: Island;
+  src: url(./font/Island_Moments/IslandMoments-Regular.ttf);
+}
+@font-face {
+  font-family: Irish;
+  src: url(./font/Irish_Grover/IrishGrover-Regular.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(./font/Inter/static/Inter-SemiBold.ttf);
+}
+.hours-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hours-section h2 {
+  width: 100%;
+  margin: auto 30%;
+  margin-bottom: 30px;
+}
+.hours-section table {
+  margin: 10px;
+  width: 60%;
+  border-spacing: 10px;
+}
+.hours-section table tr {
+  min-height: 22px;
+  height: 22px;
+  margin: unset;
+}
+
 body {
   background-color: #C79D61;
   font-family: Inter, Helvetica;

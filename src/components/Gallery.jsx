@@ -63,7 +63,6 @@ const Gallery = () => {
                 setSelectImg(pic);
             }
         });
-
     };
     const handleClickImg = (e) => {
         setImgShow(e.target.id);
@@ -90,7 +89,6 @@ const Gallery = () => {
                 </figure>
 
             </div>
-
         </section>
 
     )
