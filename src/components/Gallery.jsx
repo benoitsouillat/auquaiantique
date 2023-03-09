@@ -54,7 +54,7 @@ const Gallery = () => {
         {
             url: 'img/bavette_echalote.jpg',
             description: "Une Bavette aux échalotes"
-    });
+        });
 
 
     const setImgShow = (id) => {

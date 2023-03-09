@@ -1,16 +1,19 @@
 @import './variables';
+
 .gallery-section {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+
     h2 {
         width: 100%;
         margin: auto 30%;
         margin-bottom: 30px;
     }
 }
+
 .gallery {
     max-width: 45%;
     display: flex;
@@ -25,13 +28,13 @@
         row-gap: 10px;
         column-gap: 10px;
         margin-bottom: 25px;
-        
+
         div {
             overflow: hidden;
             box-sizing: border-box;
-            
+
         }
-        
+
         img {
             object-fit: cover;
             width: 100%;
@@ -42,6 +45,28 @@
 
 }
 
-.Selected-image-container {
-    max-width: 45%;
+.selected-image-container {
+    width: 45%;
+
+
+    figure {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        height: 410px;
+        width: 100%;
+
+        img {
+            width: 100%;
+            min-height: 80%;
+            max-height: 90%;
+            overflow: hidden;
+        }
+        figcaption {
+            margin: 5px;
+        }
+    }
 }
