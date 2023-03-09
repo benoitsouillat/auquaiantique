@@ -42,7 +42,7 @@ const Gallery = () => {
         }
     ]
     return (
-        <section>
+        <section className='gallery-section'>
             <h2>La Galerie</h2>
             <div className="gallery">
                 <div className='grid-gallery'>

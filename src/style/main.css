@@ -105,8 +105,25 @@
   font-family: Inter;
   src: url(./font/Inter/static/Inter-SemiBold.ttf);
 }
+.gallery-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gallery-section h2 {
+  width: 100%;
+  margin: auto 30%;
+  margin-bottom: 30px;
+}
+
 .gallery {
   max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .gallery .grid-gallery {
   display: grid;
@@ -115,6 +132,7 @@
   row-gap: 10px;
   -moz-column-gap: 10px;
        column-gap: 10px;
+  margin-bottom: 25px;
 }
 .gallery .grid-gallery div {
   overflow: hidden;
