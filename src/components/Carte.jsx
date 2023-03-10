@@ -1,6 +1,11 @@
 import React from 'react';
+import by_carte from '../JSON/by_carte.json';
 
 const Carte = () => {
+
+    const entries = [by_carte][0].Entrées;
+    const lunches = [by_carte][0].Plats;
+    const desserts = [by_carte][0].Desserts;
     return (
         <section className='carte'>
             <h2>La Carte</h2>
@@ -9,20 +14,36 @@ const Carte = () => {
                     <h3>Menu à la carte</h3>
                     <div className='entrées'>
                         <h4>Entrée</h4>
-                        <p>Tarte d'oignons <br /> Oignons revenus à feu doux  <br/> <span className='carte-price'>8,00€</span></p>
-                        <p>Salade de gésier <br /> En partenariat avec des éleveurs locaux <br/> <span className='carte-price'>7,50€</span></p>
+                        {
+                            entries.map(lunch => {
+                                return (
+                                    <p>{lunch.label}<br />{lunch.description}<span className='carte-price'>{lunch.price}</span></p>
+                                )
 
+                            })
+                        }
                     </div>
                     <div className='plats'>
                         <h4>Plats</h4>
-                        <p>Sauté de veau <br /> Description et tout et tout <span className='carte-price'>8,00€</span> </p>
+                        {
+                            lunches.map(lunch => {
+                                return (
+                                    <p>{lunch.label}<br />{lunch.description}<span className='carte-price'>{lunch.price}</span></p>
+                                )
 
-
+                            })
+                        }
                     </div>
                     <div className='desserts'>
                         <h4>Desserts</h4>
-                        <p>Dame Blanche <br /> Glace à la vanille nappée de chocolat fondue </p>
+                        {
+                            desserts.map(lunch => {
+                                return (
+                                    <p>{lunch.label}<br />{lunch.description}<span className='carte-price'>{lunch.price}</span></p>
+                                )
 
+                            })
+                        }
                     </div>
 
                 </section>

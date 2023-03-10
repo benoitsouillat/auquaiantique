@@ -1,0 +1,34 @@
+{
+    "Entrées": [
+        {
+            "label": "Tarte d'oignons",
+            "description": "Oignons revenus à feu doux",
+            "prix": "8,00€"
+        },
+                {
+            "label": "Salade de gésier",
+            "description": "En partenariat avec des éleveurs locaux",
+            "prix": "7,50€"
+        }
+    ],
+
+    "Plats": [
+        {
+            "label": "Sauté de veau",
+            "description": "Description et tout et tout",
+            "prix": "8,00€"
+        },
+        {
+            "label": "Pizza cuite au four",
+            "description": "Pizza faîtes par notre pizzaïolo",
+            "prix": "7,50€"
+        }
+    ],
+    "Desserts": [
+        {
+            "label": "Dame Blanche",
+            "description": "Description et tout et tout",
+            "prix": "8,00€"
+        }
+    ]
+}
