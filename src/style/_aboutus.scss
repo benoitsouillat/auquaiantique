@@ -1,0 +1,59 @@
+@import './variables';
+
+.aboutus-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    section {
+        max-width: 40%;
+        min-width: 420px;
+        background-color: lighten($primary-color, 5);
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        h3 {
+            text-align: center;
+            font-style: italic;
+            color: $tertiary-color;
+            font-family: Island;
+            font-weight: 300;
+            font-size: 3rem;
+            margin-bottom: 18%;
+        }
+
+        p {
+           padding: 12px; 
+        }
+
+        iframe {
+            width: 370px;
+            height: 200px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            border-radius: 5%;
+
+        }
+        .div-address {
+            padding: 15px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+        img {
+            overflow: hidden;
+            max-width: 50%;
+            width: 150px;
+            max-height: 200px;
+        }
+    }
+}

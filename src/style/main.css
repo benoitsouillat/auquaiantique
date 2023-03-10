@@ -269,6 +269,75 @@
   text-shadow: 2px 2px 3px black;
 }
 
+@font-face {
+  font-family: jeju;
+  src: url(./font/JejuHallasan.ttf.woff);
+}
+@font-face {
+  font-family: Island;
+  src: url(./font/Island_Moments/IslandMoments-Regular.ttf);
+}
+@font-face {
+  font-family: Irish;
+  src: url(./font/Irish_Grover/IrishGrover-Regular.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(./font/Inter/static/Inter-SemiBold.ttf);
+}
+.aboutus-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.aboutus-container section {
+  max-width: 40%;
+  min-width: 420px;
+  background-color: #cea974;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.aboutus-container section h3 {
+  text-align: center;
+  font-style: italic;
+  color: #E1CAFC;
+  font-family: Island;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 18%;
+}
+.aboutus-container section p {
+  padding: 12px;
+}
+.aboutus-container section iframe {
+  width: 370px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 5%;
+}
+.aboutus-container section .div-address {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.aboutus-container section img {
+  overflow: hidden;
+  max-width: 50%;
+  width: 150px;
+  max-height: 200px;
+}
+
 body {
   background-color: #C79D61;
   font-family: Inter, Helvetica;
