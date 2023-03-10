@@ -1,0 +1,28 @@
+{
+    "menus": [
+        {
+            "title": "Menu du Marché",
+            "entry": "Assiette de Campagne composée de rosette et pâté local",
+            "lunch": "Filet de maquereau mariné au vin blanc et aromates",
+            "dessert": "Glace ou sorbet, parfum au choix",
+            "diner": "Diner: Entrée + Plat + Dessert - 22€",
+            "dejeuner": "Déjeuner : Entrée + Plat + Dessert - 19€"
+        },
+        {
+            "title": "Menu du Chef",
+            "entry": "Gâteau de foie de volaille et son coulis de tomate",
+            "lunch": "Faux-filet au poivre avec accompagnement au choix",
+            "dessert": "Assiette de trois fromages sélectionnés",
+            "diner": "Diner: Entrée + Plat + Dessert - 25€",
+            "dejeuner": "Déjeuner : Entrée + Plat + Dessert - 23€"
+        },
+        {
+            "title": "Menu Enfant",
+            "entry": "Croq Veggie au fromage",
+            "lunch": "Steack haché ou cordon bleu avec frites authentiques de Belgique ou haricots verts",
+            "dessert": "Fromage blanc et glace super-héros",
+            "diner": "Entrée + Plat + Dessert - 12€",
+            "dejeuner": ""
+        }
+    ]
+}
