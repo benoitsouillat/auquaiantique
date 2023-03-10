@@ -1,66 +1,67 @@
 import React from 'react';
 import Button from './Button';
+import hoursData from "../JSON/hours.json";
+
 
 const OpenHours = () => {
+
+  const week = hoursData.Week;
+
   return (
-    <section className='hours-section'>
+
+
+
+    <section className='hours-section' >
       <h2>Nos horaires d'ouvertures</h2>
       <table>
         <tbody>
-          <tr>
-            <td rowSpan="2">Lundi</td>
-            <td>12h00 - 14h00</td>
-          </tr>
-          <tr>
-            <td>19h00 - 22h00</td>
-          </tr>
+          {week.map((day, i) => {
 
-          <tr>
-            <td rowSpan="2">Mardi</td>
-            <td>12h00 - 14h00</td>
-          </tr>
-          <tr>
-            <td>19h00 - 22h00</td>
-          </tr>
-
-          <tr>
-            <td rowSpan="2">Mercredi</td>
-            <td rowSpan="2">Fermé</td>
-          </tr>
-          <tr>
-            <td></td>
-          </tr>
-
-          <tr>
-            <td rowSpan="2">Jeudi</td>
-            <td>12h00 - 14h00</td>
-          </tr>
-          <tr>
-            <td>19h00 - 22h00</td>
-          </tr>
-
-          <tr>
-            <td rowSpan="2">Vendredi</td>
-            <td>19h00 - 22h00</td>
-          </tr>
-          <tr>
-            <td></td>
-          </tr>
-
-          <tr>
-            <td rowSpan="2">Samedi</td>
-            <td>12h00 - 14h00</td>
-          </tr>
-          <tr>
-            <td></td>
-          </tr>
-          <tr>
-            <td rowSpan="2">Dimanche</td>
-            <td>12h00 - 14h00</td>
-          </tr>
-          <tr>
-            <td>19h00 - 22h00</td>
-          </tr>
+            if (day.open) {
+              if (day.evening && day.morning) {
+                return (
+                  <>
+                    <tr>
+                      <td rowSpan="2"> {day.title} </td>
+                      <td> {day.morning} </td>
+                    </tr>
+                    <tr>
+                      <td>{day.evening}</td>
+                    </tr>
+                  </>
+                )
+              }
+              else if (!day.morning) {
+                return (
+                  <>
+                    <tr>
+                      <td rowSpan="2"> {day.title} </td>
+                      <td rowSpan="2"> {day.evening} </td>
+                    </tr>
+                    <tr></tr>
+                  </>
+                )
+              }
+              return (
+                <>
+                  <tr>
+                    <td rowSpan="2"> {day.title} </td>
+                    <td rowSpan="2"> {day.morning} </td>
+                  </tr>
+                  <tr></tr>
+                </>
+              )
+            }
+            return (
+              <>
+                <tr>
+                  <td rowSpan="2"> {day.title} </td>
+                  <td rowSpan="2"> Fermé </td>
+                </tr>
+                <tr></tr>
+              </>
+            )
+          })}
         </tbody>
       </table>
       <a href='tel:+33609050603'> <Button label="Nous appeler" /> </a>
@@ -68,4 +69,4 @@ const OpenHours = () => {
   )
 }
 
-export default OpenHours
+export default OpenHours;

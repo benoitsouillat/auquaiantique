@@ -1,0 +1,48 @@
+{
+    "Week":
+    [
+    
+        {
+            "title": "Lundi",
+            "open": true,
+            "morning": "12h00 - 14h00",
+            "evening": "19h00 - 22h00"
+        },
+        {
+            "title": "Mardi",
+            "open": true,
+            "morning": "12h00 - 14h00",
+            "evening": "19h00 - 22h00"
+        },
+        {
+            "title": "Mercredi",
+            "open": false,
+            "morning": "12h00 - 14h00",
+            "evening": "19h00 - 22h00"
+        },
+        {
+            "title": "Jeudi",
+            "open": true,
+            "morning": "12h00 - 14h00",
+            "evening": "19h00 - 22h00"
+        },
+        {
+            "title": "Vendredi",
+            "open": true,
+            "morning": false,
+            "evening": "19h00 - 22h00"
+        },
+        {
+            "title": "Samedi",
+            "open": true,
+            "morning": "12h00 - 14h00",
+            "evening": false
+        },
+        {
+            "title": "Dimanche",
+            "open": true,
+            "morning": "12h00 - 14h00",
+            "evening": "19h00 - 22h00"
+        }
+    ]
+}
