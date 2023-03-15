@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run deploy`
+It the commande to deploy the application with gh-pages who was installed in devdependencies, that's work and create a new branch git, run the npm build of Create-react-app and push and the gh-pages branch to build the application on github.io
+
 ### `npm start`
 
 Runs the app in the development mode.\

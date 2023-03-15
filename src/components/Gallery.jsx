@@ -5,54 +5,54 @@ const Gallery = () => {
 
     const foodImg = [
         {
-            url: "/img/bavette_echalote.jpg",
+            url: process.env.PUBLIC_URL + "/img/bavette_echalote.jpg",
             description: "Bavette aux oignons et Pommes de Terres Sautées",
             id: "bavette"
         },
         {
-            url: "/img/boulettes.jpeg",
+            url: process.env.PUBLIC_URL + "/img/boulettes.jpeg",
             description: "Boulette de Viande Hachée",
             id: "boulette"
         },
         {
-            url: "/img/breton.jpg",
+            url: process.env.PUBLIC_URL + "/img/breton.jpg",
             description: "Une spécialité Bretonne",
             id: "breton"
         },
         {
-            url: "/img/farcies.jpg",
+            url: process.env.PUBLIC_URL + "/img/farcies.jpg",
             description: "Tomate farcies maison",
             id: "farcies"
         },
         {
-            url: "/img/toquet.jpg",
+            url: process.env.PUBLIC_URL + "/img/toquet.jpg",
             description: "desc",
             id: "toquet"
         },
         {
-            url: "/img/spaghetti.jpg",
+            url: process.env.PUBLIC_URL + "/img/spaghetti.jpg",
             description: "Un plat de spaghetti",
             id: "spaghetti"
         },
         {
-            url: "/img/pizza.jpg",
+            url: process.env.PUBLIC_URL + "/img/pizza.jpg",
             description: "Une Pizza faite maison",
             id: "pizza"
         },
         {
-            url: "/img/presse_ail_tomate.jpg",
+            url: process.env.PUBLIC_URL + "/img/Presse_ail_tomate.jpg",
             description: "Presse ail et tomate",
             id: "presse"
         },
         {
-            url: "/img/Roti_Gastro.jpg",
+            url: process.env.PUBLIC_URL + "/img/Roti_Gastro.jpg",
             description: "La spécialité du chef",
             id: "roti"
         }
     ]
     let [selectImg, setSelectImg] = useState(
         {
-            url: 'img/bavette_echalote.jpg',
+            url: process.env.PUBLIC_URL + '/img/bavette_echalote.jpg',
             description: "Une Bavette aux échalotes"
         });
 
