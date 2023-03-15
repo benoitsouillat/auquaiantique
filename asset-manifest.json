@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/auquaiantique/static/css/main.617b0e1e.css",
-    "main.js": "/auquaiantique/static/js/main.00ecaac3.js",
+    "main.js": "/auquaiantique/static/js/main.1f632302.js",
     "static/js/787.cda612ba.chunk.js": "/auquaiantique/static/js/787.cda612ba.chunk.js",
     "static/media/JejuHallasan.ttf.woff": "/auquaiantique/static/media/JejuHallasan.ttf.722b1650bb8663e4993a.woff",
     "static/media/IslandMoments-Regular.ttf": "/auquaiantique/static/media/IslandMoments-Regular.2bc0d0cd21404e836a40.ttf",
@@ -9,11 +9,11 @@
     "static/media/IrishGrover-Regular.ttf": "/auquaiantique/static/media/IrishGrover-Regular.8c358e476da0ffc3c8e1.ttf",
     "index.html": "/auquaiantique/index.html",
     "main.617b0e1e.css.map": "/auquaiantique/static/css/main.617b0e1e.css.map",
-    "main.00ecaac3.js.map": "/auquaiantique/static/js/main.00ecaac3.js.map",
+    "main.1f632302.js.map": "/auquaiantique/static/js/main.1f632302.js.map",
     "787.cda612ba.chunk.js.map": "/auquaiantique/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.617b0e1e.css",
-    "static/js/main.00ecaac3.js"
+    "static/js/main.1f632302.js"
   ]
 }
