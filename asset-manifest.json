@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c180a1e.css",
-    "main.js": "/static/js/main.af3f97ab.js",
-    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
-    "static/media/JejuHallasan.ttf.woff": "/static/media/JejuHallasan.ttf.722b1650bb8663e4993a.woff",
-    "static/media/IslandMoments-Regular.ttf": "/static/media/IslandMoments-Regular.2bc0d0cd21404e836a40.ttf",
-    "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
-    "static/media/IrishGrover-Regular.ttf": "/static/media/IrishGrover-Regular.8c358e476da0ffc3c8e1.ttf",
-    "index.html": "/index.html",
-    "main.3c180a1e.css.map": "/static/css/main.3c180a1e.css.map",
-    "main.af3f97ab.js.map": "/static/js/main.af3f97ab.js.map",
-    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/auquaiantique/static/css/main.617b0e1e.css",
+    "main.js": "/auquaiantique/static/js/main.41bfa537.js",
+    "static/js/787.cda612ba.chunk.js": "/auquaiantique/static/js/787.cda612ba.chunk.js",
+    "static/media/JejuHallasan.ttf.woff": "/auquaiantique/static/media/JejuHallasan.ttf.722b1650bb8663e4993a.woff",
+    "static/media/IslandMoments-Regular.ttf": "/auquaiantique/static/media/IslandMoments-Regular.2bc0d0cd21404e836a40.ttf",
+    "static/media/Inter-SemiBold.ttf": "/auquaiantique/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/IrishGrover-Regular.ttf": "/auquaiantique/static/media/IrishGrover-Regular.8c358e476da0ffc3c8e1.ttf",
+    "index.html": "/auquaiantique/index.html",
+    "main.617b0e1e.css.map": "/auquaiantique/static/css/main.617b0e1e.css.map",
+    "main.41bfa537.js.map": "/auquaiantique/static/js/main.41bfa537.js.map",
+    "787.cda612ba.chunk.js.map": "/auquaiantique/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c180a1e.css",
-    "static/js/main.af3f97ab.js"
+    "static/css/main.617b0e1e.css",
+    "static/js/main.41bfa537.js"
   ]
 }
