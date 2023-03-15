@@ -7,7 +7,7 @@ const AboutusHeader = () => {
       linkNavigate={[
         {
           title: 'Accueil',
-          route: '/'
+          route: '/auquaiantique'
         },
         {
           title: 'Notre Carte',

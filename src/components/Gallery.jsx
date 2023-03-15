@@ -74,7 +74,8 @@ const Gallery = () => {
             <div className="gallery">
                 <div className='grid-gallery'>
                     {
-                        foodImg.map((pic, i) => (
+                        foodImg.map((pic, i) => 
+                        (
                             <div key={i} onClick={handleClickImg}>
                                 <img id={pic.id} src={pic.url} alt={pic.description} />
                             </div>

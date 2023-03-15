@@ -8,7 +8,7 @@ const CarteHeader = () => {
       linkNavigate={[
         {
           title: 'Accueil',
-          route: '/'
+          route: '/auquaiantique'
         },
         {
           title: 'Notre Carte',

@@ -17,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/aboutus" element={<AboutusHeader />}></Route>
           <Route path="/carte" element={<CarteHeader />}></Route>
+          <Route path="/auquaiantique" element={<HomeHeader />}></Route>
           <Route path="/" element={<HomeHeader />}></Route>
         </Routes>
       </header>
@@ -24,10 +25,10 @@ function App() {
         <Routes>
           <Route path="/aboutus" element={<Aboutus />}></Route>
           <Route path="/carte" element={<Carte />}></Route>
+          <Route path="/auquaiantique" element={<Home />}></Route>
           <Route path="/" element={<Home />}></Route>
         </Routes>
       </main>
-
     </div>
   );
 }
