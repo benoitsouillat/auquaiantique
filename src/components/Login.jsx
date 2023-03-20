@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from './Button';
 
 
 const Login = () => {
+
+    const [login, setLogin] = useState('');
+    const [password, setPassword] = useState('');
+
+
+
+
     return (
         <div className='login-container'>
             <section>
@@ -29,9 +36,9 @@ const Login = () => {
                 <h3>Connexion</h3>
                 <form>
                     <label>Email</label>
-                    <input />
+                    <input type="text" value={login} onChange={(e) => {setLogin(e.currentTarget.value)}}/>
                     <label>Mot de Passe</label>
-                    <input />
+                    <input type="password" value={password} onChange={(e) => {setPassword(e.currentTarget.value)}}/>
                     <Button label="Se connecter" type="submit" />
                 </form>
             </section>
