@@ -6,11 +6,11 @@ const Menu = ({ linkNavigate, linkConnect }) => {
     <nav className='menu'>
       <ul>
         {linkNavigate.map((link, i) => (
-          <li key={i}><Link className={link.classname} to={link.route}>{link.title}</Link></li>
+          <li key={i}><Link to={link.route}>{link.title}</Link></li>
         ))}
       </ul>
       <ul>
-        <li><Link to="/">Connexion</Link></li>
+        <li><Link to="/login">Connexion</Link></li>
         <li><Link to="/">Réserver</Link></li>
       </ul>
 

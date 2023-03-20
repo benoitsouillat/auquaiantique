@@ -8,9 +8,6 @@ const OpenHours = () => {
   const week = hoursData.Week;
 
   return (
-
-
-
     <section className='hours-section' >
       <h2>Nos horaires d'ouvertures</h2>
       <table>
