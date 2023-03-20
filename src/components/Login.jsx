@@ -8,6 +8,10 @@ const Login = () => {
     const [password, setPassword] = useState('');
 
 
+    const sendConnexion = (e) => {
+        e.preventDefault();
+        console.log(login + ' ' + password + ' envoyés.')
+    }
 
 
     return (
@@ -39,7 +43,7 @@ const Login = () => {
                     <input type="text" value={login} onChange={(e) => {setLogin(e.currentTarget.value)}}/>
                     <label>Mot de Passe</label>
                     <input type="password" value={password} onChange={(e) => {setPassword(e.currentTarget.value)}}/>
-                    <Button label="Se connecter" type="submit" />
+                    <button className="button" type="submit" onClick={(e) => sendConnexion(e)}>Se Connecter</button>
                 </form>
             </section>
 
