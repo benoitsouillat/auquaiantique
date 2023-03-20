@@ -11,7 +11,7 @@ const Menu = ({ linkNavigate, linkConnect }) => {
       </ul>
       <ul>
         <li><Link to="/login">Connexion</Link></li>
-        <li><Link to="/reservation">Réserver</Link></li>
+        <li><Link to="/">Réserver</Link></li>
       </ul>
 
     </nav>
