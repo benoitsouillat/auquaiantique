@@ -82,7 +82,7 @@ const Gallery = () => {
                         )}
                     )}
                 </div>
-                <Button label="Réserver une table" />
+                <Button label="Réserver une table" type="button" />
             </div>
             <div className='selected-image-container'>
                 <figure>

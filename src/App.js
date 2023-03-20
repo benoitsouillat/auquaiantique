@@ -3,9 +3,10 @@ import Home from "./components/Home";
 import CarteHeader from "./components/CarteHeader";
 import Carte from "./components/Carte";
 import AboutusHeader from "./components/AboutusHeader";
+import Login from "./components/Login";
+import LoginHeader from "./components/LoginHeader";
 import Logo from "./components/Logo";
 import Aboutus from "./components/Aboutus";
-import Login from "./components/Login";
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -17,6 +18,7 @@ function App() {
         <Logo />
         <Routes>
           <Route path="/aboutus" element={<AboutusHeader />}></Route>
+          <Route path="/login" element={<LoginHeader />}></Route>
           <Route path="/carte" element={<CarteHeader />}></Route>
           <Route path="/auquaiantique" element={<HomeHeader />}></Route>
           <Route path="/login" element={<HomeHeader />}></Route>
@@ -26,6 +28,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/aboutus" element={<Aboutus />}></Route>
+          <Route path="/login" element={<Login />}></Route>
           <Route path="/carte" element={<Carte />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/auquaiantique" element={<Home />}></Route>
