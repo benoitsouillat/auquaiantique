@@ -1,18 +1,24 @@
 import React, { useState } from 'react';
 import Button from './Button';
-
+import { authenticationService } from '../services/authentication';
 
 const Login = () => {
 
     const [login, setLogin] = useState('');
     const [password, setPassword] = useState('');
 
+    const loginCredentials = (login, password) => {
+        const userCredentials = {login, password};
+
+        return authenticationService.login(userCredentials)
+            .then(loginData => console.log(loginData))
+            .catch(error => console.error(error));
+    }
 
     const sendConnexion = (e) => {
         e.preventDefault();
-        console.log(login + ' ' + password + ' envoyés.')
+        loginCredentials(login, password);
     }
-
 
     return (
         <div className='login-container'>
@@ -38,12 +44,12 @@ const Login = () => {
             </section>
             <section>
                 <h3>Connexion</h3>
-                <form>
+                <form onSubmit={(e) => sendConnexion(e)}>
                     <label>Email</label>
                     <input type="text" value={login} onChange={(e) => {setLogin(e.currentTarget.value)}}/>
                     <label>Mot de Passe</label>
                     <input type="password" value={password} onChange={(e) => {setPassword(e.currentTarget.value)}}/>
-                    <button className="button" type="submit" onClick={(e) => sendConnexion(e)}>Se Connecter</button>
+                    <Button type="submit" label='Se Connecter' />
                 </form>
             </section>
 
